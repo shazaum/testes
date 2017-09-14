@@ -163,3 +163,4 @@ container.
     >>> container.files.put('/tmp/my-script', filedata)
     >>> newfiledata = container.files.get('/tmp/my-script2')
     >>> open('my-script2', 'wb').write(newfiledata)
+
